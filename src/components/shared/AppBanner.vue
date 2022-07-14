@@ -1,5 +1,4 @@
 <script>
-import feather from 'feather-icons';
 
 export default {
 	name: 'Home',
@@ -7,16 +6,6 @@ export default {
 		return {
 			theme: '',
 		};
-	},
-	created() {
-		this.theme = localStorage.getItem('theme') || 'light';
-	},
-	mounted() {
-		feather.replace();
-		this.theme = localStorage.getItem('theme') || 'light';
-	},
-	updated() {
-		feather.replace();
 	},
 	methods: {},
 };
@@ -58,7 +47,7 @@ export default {
 		</div>
 
 		<!-- Banner right illustration -->
-		<div class="w-full md:w-2/3 text-right float-right">
+		<!-- <div class="w-full md:w-2/3 text-right float-right">
 			<img
 				v-if="theme === 'light'"
 				src="@/assets/images/developer.svg"
@@ -69,7 +58,7 @@ export default {
 				src="@/assets/images/developer-dark.svg"
 				alt="Developer"
 			/>
-		</div>
+		</div> -->
 	</section>
 </template>
 
