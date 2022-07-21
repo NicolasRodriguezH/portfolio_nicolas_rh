@@ -17,14 +17,14 @@ export default {
 		return {
 			singleProjectHeader: {
 				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
+				singleProjectDate: 'Jul 20, 2022',
 				singleProjectTag: 'UI / Frontend',
 			},
 			projectImages: [
 				{
 					id: 1,
 					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/ui-project-1.jpg'),
+					img: require('@/assets/images/web-project-1.jpg'),
 				},
 				{
 					id: 2,
@@ -34,7 +34,7 @@ export default {
 				{
 					id: 3,
 					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
+					img: require('@/assets/images/mobile-project-1.jpg'),
 				},
 			],
 			projectInfo: {
@@ -48,7 +48,7 @@ export default {
 					{
 						id: 2,
 						title: 'Services',
-						details: 'UI Design & Frontend Development',
+						details: 'Backend & T-Shaped Development',
 					},
 					{
 						id: 3,
@@ -73,7 +73,7 @@ export default {
 							'JavaScript',
 							'Vue.js',
 							'TailwindCSS',
-							'AdobeXD',
+							'Laravel',
 						],
 					},
 				],
@@ -106,31 +106,31 @@ export default {
 						id: 1,
 						name: 'Twitter',
 						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
+						url: 'https://twitter.com/Nicolasrodh',
 					},
 					{
 						id: 2,
-						name: 'Instagram',
-						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
+						name: 'GitHub',
+						icon: 'github',
+						url: 'https://github.com/NicolasRodriguezH',
 					},
 					{
 						id: 3,
 						name: 'Facebook',
 						icon: 'facebook',
-						url: 'https://facebook.com/',
+						url: 'https://www.facebook.com/profile.php?id=1354412342',
 					},
 					{
 						id: 4,
 						name: 'LinkedIn',
 						icon: 'linkedin',
-						url: 'https://linkedin.com/',
+						url: 'https://www.linkedin.com/in/nicolas-rodriguez-hilarion-765b321b3',
 					},
 					{
 						id: 5,
 						name: 'Youtube',
 						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
+						url: 'https://www.youtube.com/channel/UCzdBJ2ZebM8POE0ieNVj4xA',
 					},
 				],
 			},
@@ -149,14 +149,9 @@ export default {
 					},
 					{
 						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
-					},
+						title: 'Web Application',
+						img: require('@/assets/images/web-project-2.jpg'),
+					}
 				],
 			},
 		};

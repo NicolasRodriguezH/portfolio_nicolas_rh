@@ -7,17 +7,17 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
+			clientsHeading: 'Some of the work done by me',
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: 'Laravel',
+					img: require('@/assets/images/brands/postsPags.png'),
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					title: 'VueSPA',
+					img: require('@/assets/images/brands/deleteMessage.png'),
 				},
 				{
 					id: 3,
@@ -28,26 +28,6 @@ export default {
 					id: 4,
 					title: 'FILA',
 					img: require('@/assets/images/brands/fila_gray.png'),
-				},
-				{
-					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
-				},
-				{
-					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
 				},
 			],
 		};

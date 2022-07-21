@@ -18,12 +18,12 @@ export default {
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
+					name: 'nicolasrhila@gmail.com',
 					icon: 'mail',
 				},
 				{
 					id: 3,
-					name: '555 8888 888',
+					name: '311 891 3227',
 					icon: 'phone',
 				},
 			],

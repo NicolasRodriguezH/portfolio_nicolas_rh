@@ -1,5 +1,4 @@
 <script>
-import ThemeSwitcher from '../ThemeSwitcher';
 import HireMeModal from '../HireMeModal.vue';
 import feather from 'feather-icons';
 import AppHeaderLinks from './AppHeaderLinks.vue';
@@ -7,7 +6,6 @@ import Button from '../reusable/Button.vue';
 
 export default {
 	components: {
-		ThemeSwitcher,
 		HireMeModal,
 		AppHeaderLinks,
 		Button,
@@ -25,18 +23,18 @@ export default {
 				},
 				{
 					id: 2,
-					value: 'mobile',
-					name: 'Mobile Application',
+					value: 'api',
+					name: 'Backend',
 				},
 				{
 					id: 3,
-					value: 'ui-ux',
-					name: 'UI/UX Design',
+					value: 'laravel',
+					name: 'Laravel Develoop',
 				},
 				{
 					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
+					value: 'golang',
+					name: 'GOlang APIrest',
 				},
 			],
 		};
@@ -86,26 +84,13 @@ export default {
 				<div>
 					<router-link to="/"
 						><img
-							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
-							class="w-36"
+							v-if="theme === 'dark'"
+							src="@/assets/images/nicolaslogo.png"
+							class="w-36 h-14 rounded-md"
 							alt="Dark Logo"
-						/>
-						<img
-							v-else
-							src="@/assets/images/logo-light.svg"
-							class="w-36"
-							alt="Light Logo"
 						/>
 					</router-link>
 				</div>
-
-				<!-- Theme switcher small screen -->
-				<theme-switcher
-					:theme="theme"
-					@themeChanged="updateTheme"
-					class="block sm:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg"
-				/>
 
 				<!-- Small screen hamburger menu -->
 				<div class="sm:hidden">
@@ -152,13 +137,7 @@ export default {
 						aria-label="Hire Me Button"
 					/>
 				</div>
-
-				<!-- Theme switcher large screen -->
-				<theme-switcher
-					:theme="theme"
-					@themeChanged="updateTheme"
-					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
-				/>
+				
 			</div>
 		</div>
 
