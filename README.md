@@ -13,13 +13,13 @@ brew install node
 2. ##### Clone the repo:
 
 ```
-git clone https://github.com/realstoman/vuejs-tailwindcss-portfolio.git
+git clone https://github.com/NicolasRodriguezH/portfolio_nicolas_rh
 ```
 
 3. ##### Open the project folder:
 
 ```
-cd vuejs-tailwindcss-portfolio
+cd portfolio_nicolas_rh
 ```
 
 4. ##### Install packages and dependencies:
